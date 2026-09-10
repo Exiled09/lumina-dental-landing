@@ -1,0 +1,51 @@
+:root {
+  /* ===== Colores ===== */
+  --color-primary: #2563EB;
+  --color-primary-dark: #1D4ED8;
+  --color-secondary: #06B6D4;
+
+  --color-bg: #FFFFFF;
+  --color-bg-alt: #F8FAFC;
+
+  --color-text: #1E293B;
+  --color-text-secondary: #64748B;
+
+  --color-success: #10B981;
+  --color-border: #E2E8F0;
+
+  /* ===== Tipografía ===== */
+  --font-family-base: 'Inter', sans-serif;
+
+  --font-size-xs: 0.8rem;      /* 12.8px */
+  --font-size-sm: 0.875rem;    /* 14px */
+  --font-size-base: 1rem;      /* 16px */
+  --font-size-lg: 1.25rem;     /* 20px */
+  --font-size-xl: 1.5625rem;   /* ~25px */
+  --font-size-2xl: 1.9375rem;  /* ~31px */
+  --font-size-3xl: 2.4375rem;  /* ~39px */
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* ===== Espaciados ===== */
+  --space-1: 0.25rem;  /* 4px */
+  --space-2: 0.5rem;   /* 8px */
+  --space-3: 1rem;     /* 16px */
+  --space-4: 1.5rem;   /* 24px */
+  --space-5: 2rem;     /* 32px */
+  --space-6: 3rem;     /* 48px */
+  --space-7: 4rem;     /* 64px */
+  --space-8: 6rem;     /* 96px */
+
+  /* ===== Bordes ===== */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+
+  /* ===== Sombra ===== */
+  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+  /* ===== Breakpoints (referencia, no usables directo en CSS) ===== */
+  /* 480px / 768px / 1024px / 1280px — se usan directo en los @media queries */
+}
