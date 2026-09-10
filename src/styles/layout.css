@@ -1,0 +1,100 @@
+/* ===== Contenedor general ===== */
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: var(--space-3);
+}
+
+/* ===== Encabezado de sección (título + subtítulo centrado) ===== */
+.section-heading {
+  text-align: center;
+  margin-bottom: var(--space-5);
+}
+
+.section-heading p {
+  margin-top: var(--space-2);
+}
+
+/* ===== Botones ===== */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-2) var(--space-4);
+  border-radius: var(--radius-sm);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-base);
+  text-align: center;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.btn--primary {
+  background-color: var(--color-primary);
+  color: #FFFFFF;
+}
+
+.btn--primary:hover {
+  background-color: var(--color-primary-dark);
+}
+
+.btn--secondary {
+  background-color: transparent;
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+}
+
+.btn--secondary:hover {
+  background-color: var(--color-bg-alt);
+}
+
+.btn--whatsapp {
+  background-color: var(--color-success);
+  color: #FFFFFF;
+}
+
+.btn--whatsapp:hover {
+  opacity: 0.9;
+}
+
+/* ===== Placeholders de imagen e íconos (temporales, Fase 1.6 los reemplaza) ===== */
+.image-placeholder,
+.map-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: var(--color-bg-alt);
+  border: 1px dashed var(--color-border);
+  border-radius: var(--radius-md);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+  text-align: center;
+  padding: var(--space-3);
+}
+
+.icon-placeholder {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-color: var(--color-bg-alt);
+  border: 1px dashed var(--color-border);
+  border-radius: var(--radius-sm);
+}
+
+/* ===== Accesibilidad: skip link ===== */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: var(--space-3);
+  background-color: var(--color-primary);
+  color: #FFFFFF;
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-sm);
+  z-index: 100;
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: var(--space-3);
+}
