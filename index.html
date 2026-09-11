@@ -1,570 +1,430 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Clínica Dental Lumina</title>
-  </head>
 
-  <body>
-    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
-
-    <header class="site-header" id="header">
-      <div class="container header__inner">
-        <a href="#" class="header__logo" aria-label="Lumina, ir al inicio">
-          Lumina
-        </a>
-
-        <nav class="header__nav" aria-label="Navegación principal">
-          <button
-            class="header__menu-toggle"
-            type="button"
-            aria-expanded="false"
-            aria-controls="header-nav-list"
-            aria-label="Abrir menú de navegación"
-          >
-            <span class="header__menu-icon" aria-hidden="true"></span>
-          </button>
-
-          <ul class="header__nav-list" id="header-nav-list">
-            <li><a href="#servicios">Servicios</a></li>
-            <li><a href="#nosotros">Nosotros</a></li>
-            <li><a href="#testimonios">Testimonios</a></li>
-            <li><a href="#faq">Preguntas frecuentes</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-          </ul>
-        </nav>
-
-        <a href="#contacto" class="btn btn--primary header__cta">
-          Agendar cita
-        </a>
-      </div>
-    </header>
-
-    <main id="main-content">
-      <!-- ===== HERO ===== -->
-      <section class="hero" aria-labelledby="hero-heading">
-        <div class="container hero__inner">
-          <div class="hero__content">
-            <h1 id="hero-heading">Tu sonrisa, en manos de confianza</h1>
-
-            <p class="hero__subtitle">
-              Atención dental para toda la familia, con horarios flexibles y
-              planes de pago accesibles.
-            </p>
-
-            <div class="hero__actions">
-              <a href="#contacto" class="btn btn--primary">Agendar cita</a>
-              <a href="#servicios" class="btn btn--secondary">
-                Ver servicios
-              </a>
-            </div>
-          </div>
-
-          <div class="hero__media">
-            <div
-              class="image-placeholder"
-              style="aspect-ratio: 4 / 5;"
-              data-image-target="hero"
-              data-alt-text="Paciente sonriendo en el consultorio de Lumina"
-            >
-              <span class="image-placeholder__label">
-                Imagen hero — 800×1000px
-              </span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- ===== SERVICIOS ===== -->
-      <section
-        class="services"
-        id="servicios"
-        aria-labelledby="services-heading"
-      >
-        <div class="container">
-          <div class="section-heading">
-            <h2 id="services-heading">Nuestros servicios</h2>
-            <p>Cuidado dental completo para cada etapa de tu vida.</p>
-          </div>
-
-          <ul class="services__grid">
-            <li class="service-card">
-              <span
-                class="icon-placeholder"
-                aria-hidden="true"
-                data-icon="tooth"
-              ></span>
-
-              <h3>Limpieza dental</h3>
-
-              <p>
-                Profilaxis profesional para mantener tu boca sana y libre de
-                sarro.
-              </p>
-            </li>
-
-            <li class="service-card">
-              <span
-                class="icon-placeholder"
-                aria-hidden="true"
-                data-icon="sparkle"
-              ></span>
-
-              <h3>Blanqueamiento dental</h3>
-
-              <p>
-                Recupera el brillo natural de tu sonrisa en una sola sesión.
-              </p>
-            </li>
-
-            <li class="service-card">
-              <span
-                class="icon-placeholder"
-                aria-hidden="true"
-                data-icon="family"
-              ></span>
-
-              <h3>Odontología familiar</h3>
-
-              <p>
-                Atención para niños, adultos y adultos mayores, en un mismo
-                lugar.
-              </p>
-            </li>
-
-            <li class="service-card">
-              <span
-                class="icon-placeholder"
-                aria-hidden="true"
-                data-icon="urgent"
-              ></span>
-
-              <h3>Urgencias dentales</h3>
-
-              <p>
-                Atención prioritaria para dolor, fracturas u otras molestias
-                urgentes.
-              </p>
-            </li>
-
-            <li class="service-card">
-              <span
-                class="icon-placeholder"
-                aria-hidden="true"
-                data-icon="braces"
-              ></span>
-
-              <h3>Ortodoncia</h3>
-
-              <p>
-                Brackets tradicionales y estéticos para todas las edades.
-              </p>
-            </li>
-
-            <li class="service-card">
-              <span
-                class="icon-placeholder"
-                aria-hidden="true"
-                data-icon="implant"
-              ></span>
-
-              <h3>Prótesis e implantes</h3>
-
-              <p>
-                Recupera piezas dentales con soluciones duraderas y naturales.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <!-- ===== POR QUÉ ELEGIRNOS ===== -->
-      <section
-        class="why-us"
-        id="nosotros"
-        aria-labelledby="why-us-heading"
-      >
-        <div class="container why-us__inner">
-          <div
-            class="image-placeholder"
-            style="aspect-ratio: 4 / 3;"
-            data-image-target="consultorio"
-            data-alt-text="Interior del consultorio de Clínica Dental Lumina"
-          >
-            <span class="image-placeholder__label">
-              Imagen consultorio — 800×600px
-            </span>
-          </div>
-
-          <div class="why-us__content">
-            <h2 id="why-us-heading">¿Por qué elegir Lumina?</h2>
-
-            <ul class="why-us__list">
-              <li>
-                Equipo de rayos X digital como parte de nuestro proceso de
-                diagnóstico
-              </li>
-              <li>Protocolos de bioseguridad en cada consulta</li>
-              <li>
-                Opciones de pago a plazos para tratamientos de mayor costo
-              </li>
-              <li>Horario extendido, incluyendo sábados</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <!-- ===== TESTIMONIOS ===== -->
-      <section
-        class="testimonials"
-        id="testimonios"
-        aria-labelledby="testimonials-heading"
-      >
-        <div class="container">
-          <div class="section-heading">
-            <h2 id="testimonials-heading">Lo que dicen nuestros pacientes</h2>
-          </div>
-
-          <ul class="testimonials__grid">
-            <li class="testimonial-card">
-              <blockquote>
-                <p>
-                  "La atención fue clara desde el primer momento: me explicaron
-                  cada paso antes de empezar el tratamiento."
-                </p>
-
-                <footer>— Paciente de Lumina</footer>
-              </blockquote>
-            </li>
-
-            <li class="testimonial-card">
-              <blockquote>
-                <p>
-                  "Me gusta que en cada visita me explican qué van a hacer y
-                  por qué, sin prisas."
-                </p>
-
-                <footer>— Paciente de Lumina</footer>
-              </blockquote>
-            </li>
-
-            <li class="testimonial-card">
-              <blockquote>
-                <p>
-                  "Mi hija le tenía miedo al dentista. Aquí la trataron con
-                  mucha paciencia y ahora se siente más tranquila viniendo."
-                </p>
-
-                <footer>— Familiar de un paciente de Lumina</footer>
-              </blockquote>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <!-- ===== FAQ ===== -->
-      <section class="faq" id="faq" aria-labelledby="faq-heading">
-        <div class="container">
-          <div class="section-heading">
-            <h2 id="faq-heading">Preguntas frecuentes</h2>
-          </div>
-
-          <div class="faq__list">
-            <div class="faq-item">
-              <h3>
-                <button
-                  type="button"
-                  class="faq-item__trigger"
-                  aria-expanded="false"
-                  aria-controls="faq-answer-1"
-                  id="faq-question-1"
-                >
-                  ¿Atienden urgencias sin cita previa?
-                </button>
-              </h3>
-
-              <div
-                class="faq-item__answer"
-                id="faq-answer-1"
-                role="region"
-                aria-labelledby="faq-question-1"
-                hidden
-              >
-                <p>
-                  Sí, contamos con espacio reservado para urgencias todos los
-                  días. Te recomendamos llamar antes para confirmar
-                  disponibilidad.
-                </p>
-              </div>
-            </div>
-
-            <div class="faq-item">
-              <h3>
-                <button
-                  type="button"
-                  class="faq-item__trigger"
-                  aria-expanded="false"
-                  aria-controls="faq-answer-2"
-                  id="faq-question-2"
-                >
-                  ¿Aceptan seguros de gastos médicos?
-                </button>
-              </h3>
-
-              <div
-                class="faq-item__answer"
-                id="faq-answer-2"
-                role="region"
-                aria-labelledby="faq-question-2"
-                hidden
-              >
-                <p>
-                  Contamos con opciones para pacientes con seguro de gastos
-                  médicos. Escríbenos con el nombre de tu aseguradora y te
-                  decimos cómo podemos ayudarte.
-                </p>
-              </div>
-            </div>
-
-            <div class="faq-item">
-              <h3>
-                <button
-                  type="button"
-                  class="faq-item__trigger"
-                  aria-expanded="false"
-                  aria-controls="faq-answer-3"
-                  id="faq-question-3"
-                >
-                  ¿Tienen planes de pago?
-                </button>
-              </h3>
-
-              <div
-                class="faq-item__answer"
-                id="faq-answer-3"
-                role="region"
-                aria-labelledby="faq-question-3"
-                hidden
-              >
-                <p>
-                  Sí, ofrecemos opciones de pago a plazos para tratamientos de
-                  mayor costo. Con gusto te explicamos los detalles en tu
-                  consulta.
-                </p>
-              </div>
-            </div>
-
-            <div class="faq-item">
-              <h3>
-                <button
-                  type="button"
-                  class="faq-item__trigger"
-                  aria-expanded="false"
-                  aria-controls="faq-answer-4"
-                  id="faq-question-4"
-                >
-                  ¿Atienden niños?
-                </button>
-              </h3>
-
-              <div
-                class="faq-item__answer"
-                id="faq-answer-4"
-                role="region"
-                aria-labelledby="faq-question-4"
-                hidden
-              >
-                <p>
-                  Sí. Contamos con atención pediátrica y un enfoque especial
-                  para que los pequeños se sientan cómodos durante su visita.
-                </p>
-              </div>
-            </div>
-
-            <div class="faq-item">
-              <h3>
-                <button
-                  type="button"
-                  class="faq-item__trigger"
-                  aria-expanded="false"
-                  aria-controls="faq-answer-5"
-                  id="faq-question-5"
-                >
-                  ¿Cuál es el horario de atención?
-                </button>
-              </h3>
-
-              <div
-                class="faq-item__answer"
-                id="faq-answer-5"
-                role="region"
-                aria-labelledby="faq-question-5"
-                hidden
-              >
-                <p>
-                  Lunes a viernes de 9:00 a 19:00, y sábados de 9:00 a 14:00.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- ===== CONTACTO / UBICACIÓN ===== -->
-      <section
-        class="contact"
-        id="contacto"
-        aria-labelledby="contact-heading"
-      >
-        <div class="container contact__inner">
-          <div class="contact__form-wrapper">
-            <h2 id="contact-heading">Agenda tu cita hoy mismo</h2>
-
-            <p>
-              Cuéntanos qué necesitas y te contactaremos para confirmar tu
-              cita.
-            </p>
-
-            <form class="contact-form" id="contact-form" novalidate>
-              <div class="form-field">
-                <label for="name">Nombre</label>
-
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  autocomplete="name"
-                  required
-                />
-
-                <span
-                  class="form-field__error"
-                  id="name-error"
-                  role="alert"
-                ></span>
-              </div>
-
-              <div class="form-field">
-                <label for="phone">Teléfono</label>
-
-                <input
-                  type="tel"
-                  id="phone"
-                  name="phone"
-                  autocomplete="tel"
-                  required
-                />
-
-                <span
-                  class="form-field__error"
-                  id="phone-error"
-                  role="alert"
-                ></span>
-              </div>
-
-              <div class="form-field">
-                <label for="reason">Motivo de consulta</label>
-
-                <select id="reason" name="reason" required>
-                  <option value="" selected disabled>
-                    Selecciona una opción
-                  </option>
-                  <option value="limpieza">Limpieza</option>
-                  <option value="urgencia">Urgencia</option>
-                  <option value="ortodoncia">Ortodoncia</option>
-                  <option value="otro">Otro</option>
-                </select>
-
-                <span
-                  class="form-field__error"
-                  id="reason-error"
-                  role="alert"
-                ></span>
-              </div>
-
-              <div class="form-field">
-                <label for="message">Mensaje</label>
-
-                <textarea
-                  id="message"
-                  name="message"
-                  rows="4"
-                ></textarea>
-              </div>
-
-              <button type="submit" class="btn btn--primary">
-                Enviar mensaje
-              </button>
-
-              <p
-                class="form-success"
-                id="form-success"
-                role="status"
-                hidden
-              >
-                ¡Gracias! Tu mensaje fue enviado correctamente. Te
-                contactaremos pronto.
-              </p>
-            </form>
-          </div>
-
-          <div class="contact__info">
-            <div class="map-placeholder" style="aspect-ratio: 4 / 3;">
-              <span class="image-placeholder__label">Mapa embebido</span>
-            </div>
-
-            <address class="contact__details">
-              <p>Blvd. Pedro Infante #1234, Culiacán, Sin.</p>
-              <p>
-                <a href="tel:+526671234567">(667) 123-4567</a>
-              </p>
-              <p>Lun–Vie 9:00–19:00, Sáb 9:00–14:00</p>
-            </address>
-
-            <a
-              href="https://wa.me/526671234567"
-              class="btn btn--whatsapp"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Escríbenos por WhatsApp
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clínica Dental Lumina</title>
+</head>
+
+<body>
+  <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+  <header class="site-header" id="header">
+    <div class="container header__inner">
+      <a href="#" class="header__logo" aria-label="Lumina, ir al inicio">
+        Lumina
+      </a>
+
+      <nav class="header__nav" aria-label="Navegación principal">
+        <button class="header__menu-toggle" type="button" aria-expanded="false" aria-controls="header-nav-list"
+          aria-label="Abrir menú de navegación">
+          <span class="header__menu-icon" aria-hidden="true"></span>
+        </button>
+
+        <ul class="header__nav-list" id="header-nav-list">
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#testimonios">Testimonios</a></li>
+          <li><a href="#faq">Preguntas frecuentes</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <a href="#contacto" class="btn btn--primary header__cta">
+        Agendar cita
+      </a>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- ===== HERO ===== -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <h1 id="hero-heading">Tu sonrisa, en manos de confianza</h1>
+
+          <p class="hero__subtitle">
+            Atención dental para toda la familia, con horarios flexibles y
+            planes de pago accesibles.
+          </p>
+
+          <div class="hero__actions">
+            <a href="#contacto" class="btn btn--primary">Agendar cita</a>
+            <a href="#servicios" class="btn btn--secondary">
+              Ver servicios
             </a>
           </div>
         </div>
-      </section>
-    </main>
 
-    <footer class="site-footer">
-      <div class="container footer__inner">
-        <div class="footer__brand">
-          <p class="footer__logo">Lumina</p>
-          <p>Cuidado dental para toda la familia</p>
+        <div class="hero__media">
+          <div class="image-placeholder" style="aspect-ratio: 4 / 5;" data-image-target="hero"
+            data-alt-text="Paciente sonriendo en el consultorio de Lumina">
+            <span class="image-placeholder__label">
+              Imagen hero — 800×1000px
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SERVICIOS ===== -->
+    <section class="services" id="servicios" aria-labelledby="services-heading">
+      <div class="container">
+        <div class="section-heading">
+          <h2 id="services-heading">Nuestros servicios</h2>
+          <p>Cuidado dental completo para cada etapa de tu vida.</p>
         </div>
 
-        <nav
-          class="footer__nav"
-          aria-label="Navegación del pie de página"
-        >
-          <ul>
-            <li><a href="#servicios">Servicios</a></li>
-            <li><a href="#nosotros">Nosotros</a></li>
-            <li><a href="#testimonios">Testimonios</a></li>
-            <li><a href="#faq">Preguntas frecuentes</a></li>
-            <li><a href="#contacto">Contacto</a></li>
+        <ul class="services__grid">
+          <li class="service-card">
+            <span class="icon-placeholder" aria-hidden="true" data-icon="tooth"></span>
+
+            <h3>Limpieza dental</h3>
+
+            <p>
+              Profilaxis profesional para mantener tu boca sana y libre de
+              sarro.
+            </p>
+          </li>
+
+          <li class="service-card">
+            <span class="icon-placeholder" aria-hidden="true" data-icon="sparkle"></span>
+
+            <h3>Blanqueamiento dental</h3>
+
+            <p>
+              Recupera el brillo natural de tu sonrisa en una sola sesión.
+            </p>
+          </li>
+
+          <li class="service-card">
+            <span class="icon-placeholder" aria-hidden="true" data-icon="family"></span>
+
+            <h3>Odontología familiar</h3>
+
+            <p>
+              Atención para niños, adultos y adultos mayores, en un mismo
+              lugar.
+            </p>
+          </li>
+
+          <li class="service-card">
+            <span class="icon-placeholder" aria-hidden="true" data-icon="urgent"></span>
+
+            <h3>Urgencias dentales</h3>
+
+            <p>
+              Atención prioritaria para dolor, fracturas u otras molestias
+              urgentes.
+            </p>
+          </li>
+
+          <li class="service-card">
+            <span class="icon-placeholder" aria-hidden="true" data-icon="braces"></span>
+
+            <h3>Ortodoncia</h3>
+
+            <p>
+              Brackets tradicionales y estéticos para todas las edades.
+            </p>
+          </li>
+
+          <li class="service-card">
+            <span class="icon-placeholder" aria-hidden="true" data-icon="implant"></span>
+
+            <h3>Prótesis e implantes</h3>
+
+            <p>
+              Recupera piezas dentales con soluciones duraderas y naturales.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== POR QUÉ ELEGIRNOS ===== -->
+    <section class="why-us" id="nosotros" aria-labelledby="why-us-heading">
+      <div class="container why-us__inner">
+        <div class="image-placeholder" style="aspect-ratio: 4 / 3;" data-image-target="consultorio"
+          data-alt-text="Interior del consultorio de Clínica Dental Lumina">
+          <span class="image-placeholder__label">
+            Imagen consultorio — 800×600px
+          </span>
+        </div>
+
+        <div class="why-us__content">
+          <h2 id="why-us-heading">¿Por qué elegir Lumina?</h2>
+
+          <ul class="why-us__list">
+            <li>
+              <span class="icon-placeholder" aria-hidden="true"></span>
+              Equipo de rayos X digital como parte de nuestro proceso de diagnóstico
+            </li>
+            <li>
+              <span class="icon-placeholder" aria-hidden="true"></span>
+              Protocolos de bioseguridad en cada consulta
+            </li>
+            <li>
+              <span class="icon-placeholder" aria-hidden="true"></span>
+              Opciones de pago a plazos para tratamientos de mayor costo
+            </li>
+            <li>
+              <span class="icon-placeholder" aria-hidden="true"></span>
+              Horario extendido, incluyendo sábados
+            </li>
           </ul>
-        </nav>
+        </div>
       </div>
+    </section>
 
+    <!-- ===== TESTIMONIOS ===== -->
+    <section class="testimonials" id="testimonios" aria-labelledby="testimonials-heading">
       <div class="container">
-        <p class="footer__legal">
-          © 2026 Clínica Dental Lumina. Todos los derechos reservados.
-          Proyecto ficticio de portafolio.
-        </p>
-      </div>
-    </footer>
+        <div class="section-heading">
+          <h2 id="testimonials-heading">Lo que dicen nuestros pacientes</h2>
+        </div>
 
-    <script type="module" src="/src/main.js"></script>
-  </body>
+        <ul class="testimonials__grid">
+          <li class="testimonial-card">
+            <blockquote>
+              <p>
+                "La atención fue clara desde el primer momento: me explicaron
+                cada paso antes de empezar el tratamiento."
+              </p>
+
+              <footer>— Paciente de Lumina</footer>
+            </blockquote>
+          </li>
+
+          <li class="testimonial-card">
+            <blockquote>
+              <p>
+                "Me gusta que en cada visita me explican qué van a hacer y
+                por qué, sin prisas."
+              </p>
+
+              <footer>— Paciente de Lumina</footer>
+            </blockquote>
+          </li>
+
+          <li class="testimonial-card">
+            <blockquote>
+              <p>
+                "Mi hija le tenía miedo al dentista. Aquí la trataron con
+                mucha paciencia y ahora se siente más tranquila viniendo."
+              </p>
+
+              <footer>— Familiar de un paciente de Lumina</footer>
+            </blockquote>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section class="faq" id="faq" aria-labelledby="faq-heading">
+      <div class="container">
+        <div class="section-heading">
+          <h2 id="faq-heading">Preguntas frecuentes</h2>
+        </div>
+
+        <div class="faq__list">
+          <div class="faq-item">
+            <h3>
+              <button type="button" class="faq-item__trigger" aria-expanded="false" aria-controls="faq-answer-1"
+                id="faq-question-1">
+                ¿Atienden urgencias sin cita previa?
+              </button>
+            </h3>
+
+            <div class="faq-item__answer" id="faq-answer-1" role="region" aria-labelledby="faq-question-1" hidden>
+              <p>
+                Sí, contamos con espacio reservado para urgencias todos los
+                días. Te recomendamos llamar antes para confirmar
+                disponibilidad.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <h3>
+              <button type="button" class="faq-item__trigger" aria-expanded="false" aria-controls="faq-answer-2"
+                id="faq-question-2">
+                ¿Aceptan seguros de gastos médicos?
+              </button>
+            </h3>
+
+            <div class="faq-item__answer" id="faq-answer-2" role="region" aria-labelledby="faq-question-2" hidden>
+              <p>
+                Contamos con opciones para pacientes con seguro de gastos
+                médicos. Escríbenos con el nombre de tu aseguradora y te
+                decimos cómo podemos ayudarte.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <h3>
+              <button type="button" class="faq-item__trigger" aria-expanded="false" aria-controls="faq-answer-3"
+                id="faq-question-3">
+                ¿Tienen planes de pago?
+              </button>
+            </h3>
+
+            <div class="faq-item__answer" id="faq-answer-3" role="region" aria-labelledby="faq-question-3" hidden>
+              <p>
+                Sí, ofrecemos opciones de pago a plazos para tratamientos de
+                mayor costo. Con gusto te explicamos los detalles en tu
+                consulta.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <h3>
+              <button type="button" class="faq-item__trigger" aria-expanded="false" aria-controls="faq-answer-4"
+                id="faq-question-4">
+                ¿Atienden niños?
+              </button>
+            </h3>
+
+            <div class="faq-item__answer" id="faq-answer-4" role="region" aria-labelledby="faq-question-4" hidden>
+              <p>
+                Sí. Contamos con atención pediátrica y un enfoque especial
+                para que los pequeños se sientan cómodos durante su visita.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <h3>
+              <button type="button" class="faq-item__trigger" aria-expanded="false" aria-controls="faq-answer-5"
+                id="faq-question-5">
+                ¿Cuál es el horario de atención?
+              </button>
+            </h3>
+
+            <div class="faq-item__answer" id="faq-answer-5" role="region" aria-labelledby="faq-question-5" hidden>
+              <p>
+                Lunes a viernes de 9:00 a 19:00, y sábados de 9:00 a 14:00.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACTO / UBICACIÓN ===== -->
+    <section class="contact" id="contacto" aria-labelledby="contact-heading">
+      <div class="container contact__inner">
+        <div class="contact__form-wrapper">
+          <h2 id="contact-heading">Agenda tu cita hoy mismo</h2>
+
+          <p>
+            Cuéntanos qué necesitas y te contactaremos para confirmar tu
+            cita.
+          </p>
+
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-field">
+              <label for="name">Nombre</label>
+
+              <input type="text" id="name" name="name" autocomplete="name" required />
+
+              <span class="form-field__error" id="name-error" role="alert"></span>
+            </div>
+
+            <div class="form-field">
+              <label for="phone">Teléfono</label>
+
+              <input type="tel" id="phone" name="phone" autocomplete="tel" required />
+
+              <span class="form-field__error" id="phone-error" role="alert"></span>
+            </div>
+
+            <div class="form-field">
+              <label for="reason">Motivo de consulta</label>
+
+              <select id="reason" name="reason" required>
+                <option value="" selected disabled>
+                  Selecciona una opción
+                </option>
+                <option value="limpieza">Limpieza</option>
+                <option value="urgencia">Urgencia</option>
+                <option value="ortodoncia">Ortodoncia</option>
+                <option value="otro">Otro</option>
+              </select>
+
+              <span class="form-field__error" id="reason-error" role="alert"></span>
+            </div>
+
+            <div class="form-field">
+              <label for="message">Mensaje</label>
+
+              <textarea id="message" name="message" rows="4"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn--primary">
+              Enviar mensaje
+            </button>
+
+            <p class="form-success" id="form-success" role="status" hidden>
+              ¡Gracias! Tu mensaje fue enviado correctamente. Te
+              contactaremos pronto.
+            </p>
+          </form>
+        </div>
+
+        <div class="contact__info">
+          <div class="map-placeholder" style="aspect-ratio: 4 / 3;">
+            <span class="image-placeholder__label">Mapa embebido</span>
+          </div>
+
+          <address class="contact__details">
+            <p>Blvd. Pedro Infante #1234, Culiacán, Sin.</p>
+            <p>
+              <a href="tel:+526671234567">(667) 123-4567</a>
+            </p>
+            <p>Lun–Vie 9:00–19:00, Sáb 9:00–14:00</p>
+          </address>
+
+          <a href="https://wa.me/526671234567" class="btn btn--whatsapp" target="_blank" rel="noopener noreferrer">
+            Escríbenos por WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <p class="footer__logo">Lumina</p>
+        <p>Cuidado dental para toda la familia</p>
+      </div>
+
+      <nav class="footer__nav" aria-label="Navegación del pie de página">
+        <ul>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#testimonios">Testimonios</a></li>
+          <li><a href="#faq">Preguntas frecuentes</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="container">
+      <p class="footer__legal">
+        © 2026 Clínica Dental Lumina. Todos los derechos reservados.
+        Proyecto ficticio de portafolio.
+      </p>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
 </html>
