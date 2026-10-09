@@ -1,6 +1,7 @@
-css
+
 .contact {
-  padding-block: var(--space-6);
+  padding-block: var(--space-6) var(--space-8);
+  margin-bottom: var(--space-4);
   background-color: var(--color-bg-alt);
 }
 
