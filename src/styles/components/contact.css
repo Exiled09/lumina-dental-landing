@@ -93,13 +93,7 @@
   border-radius: var(--radius-sm);
 }
 
-.form-success::before {
-  content: "Simulación de portafolio";
-  display: block;
-  margin-bottom: var(--space-1);
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-bold);
-}
+
 
 /* ===== Información de contacto ===== */
 .contact__info {
