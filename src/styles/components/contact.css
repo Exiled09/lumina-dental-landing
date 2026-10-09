@@ -74,10 +74,7 @@
   margin-top: var(--space-1);
 }
 
-.form-field__error:not(:empty)::before {
-  content: "Error: ";
-  font-weight: var(--font-weight-bold);
-}
+
 
 /* ===== Botón de envío ===== */
 .contact-form .btn {
